@@ -1,0 +1,37 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:layout_marginTop="290dp"
+		android:background="@drawable/bottom_background"/>
+	<TextView
+		android:id="@+id/tvtopo"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:text="Desenvolvido por Gamaliel"
+		android:textColor="#6F2DBD"
+		android:textStyle="bold"
+		android:textSize="18sp"
+		android:layout_marginTop="20dp"
+		android:layout_marginStart="64dp"/>
+	<ImageView
+		android:id="@+id/imageView2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="25dp"
+		android:layout_gravity="center"
+		android:gravity="center"
+		android:background="@drawable/men"/>
+	<Button
+		android:id="@+id/botaoEntrar"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:text="Vamos Começar"
+		android:layout_gravity="bottom"
+		android:layout_marginBottom="15dp"
+		android:layout_marginLeft="15dp"/>
+</FrameLayout>
